@@ -1,10 +1,16 @@
 import React from 'react'
+import { useEffect } from 'react';
 import image2 from '../images/portfolio-2.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const About = () => {
+  useEffect(()=>{
+      AOS.init({duration:1000});
+    })
   return (
     <div id="About">
-      <div className="container md:mt-10 mx-auto p-5">
+      <div className="container  md:mt-10 mx-auto p-5" data-aos="zoom-in" >
         <div className="flex gap-5 flex-col md:flex-row">
           <div className="md:w-3/5">
             <h1 className='md:text-4xl text-2xl font-medium'>About us</h1>
@@ -22,6 +28,7 @@ export const About = () => {
               </div>
             </div>
           </div>
+          {/* ====================image===================== */}
           <div className="md:w-2/5 md:px-5 md:me-8 ">
             <img src={image2} className='md:ms-11 about-img ' alt="" />
           </div>
