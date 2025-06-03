@@ -10,7 +10,7 @@ export const Skill = () => {
   return (
     <div id="Skill">
       <div className="container md:mt-12 md:px-10 mx-auto p-5" data-aos="zoom-in">
-        <h1 className='md:text-5xl font-bold text-center'>MY SKILLS</h1>
+        <h1 className='md:text-5xl text-2xl font-bold text-center'>MY SKILLS</h1>
         <div className="grid gap-4 mt-5 md:mt-14 grid-cols-2 md:grid-cols-4">
             {
               skills.map((dd,index)=>(
