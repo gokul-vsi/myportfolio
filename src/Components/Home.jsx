@@ -25,7 +25,7 @@ export const Home = () => {
                 Specialized in MERN Stack, I build dynamic, user-friendly web applications that look great and work flawlessly across all devices. Let's bring your vision to life with clean code and compelling design.
               </p>
               <div className="flex gap-5 md:ms-7 mt-2 md:mt-6 ">
-                     <a href="" className='p-2 px-4 rounded bg-purple-600 text-white'>Contact Me</a>
+                     <a href="#Contact" className='p-2 px-4 rounded bg-purple-600 text-white'>Contact Me</a>
                      <a href="" className='p-2 px-4 rounded border-2 border-purple-600 text-purple-600 animate__animated animate__pulse animate__fast animate__infinite'>Hire Me</a>
               </div>
               <div className="flex gap-3 mt-4 md:ms-7 md:mt-6">

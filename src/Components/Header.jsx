@@ -35,7 +35,7 @@ export const Header = () => {
 
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
-              <a className="rounded-md animate__animated animate__fadeInDown bg-purple-600 px-5 py-2.5 text-sm font-medium md:mt-2 text-white shadow-sm" href="#">
+              <a className="rounded-md animate__animated animate__fadeInDown bg-purple-600 px-5 py-2.5 text-sm font-medium md:mt-2 text-white shadow-sm" href="#Contact">
                 Contact
               </a>
 
