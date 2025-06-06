@@ -34,13 +34,13 @@ export const Contact = () => {
           <form   ref={form} onSubmit={sendEmail}   className="flex flex-col justify-center mt-7 items-center">
             <ToastContainer position="top-right" />
             <div className='flex gap-5'>
-              <TextField id="outlined-basic" label="Your Name" required variant="outlined" />
-              <TextField id="outlined-basic" label="Email Address" required variant="outlined" />
+              <TextField id="outlined-basic" name="from_name" label="Your Name" required variant="outlined" />
+              <TextField id="outlined-basic" name="from_email" label="Email Address" required variant="outlined" />
             </div>
             <div className='mt-7 w-full max-w-md'>
-              <textarea name="" placeholder='Subject' required className='p-3 w-full border border-gray-400 rounded outline-blue-600' id=""></textarea>
+              <textarea name="message" placeholder='Subject' required className='p-3 w-full border border-gray-400 rounded outline-blue-600' id=""></textarea>
             </div>
-            <input type="submit" value="Send Message" className='p-2 border px-4 rounded bg-purple-600 text-white mt-7 hover:bg-white hover:border-purple-600 hover:text-purple-600'  />
+            <input type="submit"  value="Send Message"  className='p-2 border px-4 rounded bg-purple-600 text-white mt-7 hover:bg-white hover:border-purple-600 hover:text-purple-600'  />
           </form>
       </div>
     </div>
